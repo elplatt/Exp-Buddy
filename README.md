@@ -1,12 +1,14 @@
 ## Treatment Groups
 Note that treatment and control groups vary between years.
 
-| Year | Control | Treatment |
-| ---  | ---     | ---       |
-| 2017 | Late    | Early     |
-| 2018 | Late    | Early     |
-| 2019 | Early   | Late      |
-
+| Year | Early Teamwork | Late Teamwork
+| ---  | ---            | ---
+| 2017 | Network        | Random
+| 2018 | Network        | Random
+| 2019 | Random         | Network
+ 
+Survey was given at the halfway point.
+ 
 ## Data Workflow
 
 1. Preprocess
@@ -41,10 +43,3 @@ Note that treatment and control groups vary between years.
         * Input: preprocessed/student_yyyy_year.csv
         * Output OLS regressions
         * Currently includes controls for year, grade level, degree program.
-
-## TODO
-
-* Is the bonus point adjustment in Preprocess Grades correct?
-* Confirm 2019 treatment group was the late teamwork group and this year should be
-    excluded from survey analysis.
-* Are points deducted for late assignments?
