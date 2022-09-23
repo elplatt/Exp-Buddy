@@ -11,6 +11,8 @@ Survey was given at the halfway point.
  
 ## Data Workflow
 
+Snapshots of some notebook output are included as html files.
+
 1. Preprocess
     1. 01 Preprocess Grades - Extracts grades for relevant assignments
         * Up to 10 points are added to student grades on invididual assignments to
